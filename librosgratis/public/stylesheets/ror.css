@@ -1,0 +1,66 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 4%;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    border-right-width: 2px;
+    border-right-color: #000000;
+}
+
+#containerLeyenda {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgDetalleLibro {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#txtDetalleLibro {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+hr{
+    border-width:0;
+    color:#000;
+    background-color:rgb(169, 56, 22);
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 0.4vw;
+   }
+
+#otros {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.imgOtros {
+    margin: 5%;
+}
+
+#categoria {
+    font-weight: bold;
+}
+
+#publicacion {
+    text-align: right;
+}
