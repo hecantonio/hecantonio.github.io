@@ -107,52 +107,73 @@
       </ol>
     </section>
 
-    <section id="seccionreferencia" class="seccion">
-
-    </section>
-
     <aside id="secciongaleria" class="seccion">
-      <img src="public/images/reading.jpg" alt="Reading" width="30%">
+      <img src="public/images/reading.jpg" alt="Reading" width="451">
       <img
         src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
-        alt="Foto de colaboración" width="30%">
+        alt="Foto de colaboración" width="451">
 
     </aside>
 
     <section id="seccioncontactenos" class="seccion">
       <h2>Contáctame</h2>
-      <h3>Sus datos</h3>
+      <h3 id="datos">Sus datos</h3>
 
       <form>
-        <label for="nombre">Nombres:</label><input type="text" name="nombre"
+        <div class="part separator2">
+          <label for="nombre">Nombres:</label><input type="text" name="nombre"
           id="nombre">
-        <label for="nombre">Apellidos:</label><input type="text"
+        </div>
+        <div class="part separator2">
+          <label for="nombre">Apellidos:</label><input type="text"
           name="apellidos"
-          id="apellidos"><br>
-
-        <label for="edad">Seleccione su rango de edad</label><br>
-        <input type="radio" id="opcion1" name="edad" value="menor25"><label
+          id="apellidos">
+        </div>
+        
+        <div class="form-section">
+          <label>Seleccione su rango de edad</label>
+        </div>
+        <div class="part separator">
+          <input type="radio" id="opcion1" name="edad" value="menor25"><label
           for="opcion1"> menor a 25 años</label>
-        <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+        </div>
+        <div class="part separator">
+          <input type="radio" id="opcion2" name="edad" value="entre26y20"><label
           for="opcion2"> entre 26 y 30 años</label>
-        <input type="radio" id="opcion3" name="edad" value="mayor31"><label
-          for="opcion3"> mayor a 31 años</label><br><br>
-
-        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label><br>
-        <input type="checkbox" name="frontend" id="frontend"><label
-          for="frontend">Frontend Dev</label><br>
-        <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
-          Dev</label><br>
-        <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
-          de software</label><br>
-        <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label><br>
+        </div>
+        <div class="part separator">
+          <input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="opcion3"> mayor a 31 años</label>
+        </div>
+        
+        <div class="form-section">
+          <label>Seleccione el tipo de servicio a consultar</label>
+        </div>
+        <div class="part separator">
+          <input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend">Frontend Dev</label>
+        </div>
+        <div class="part separator">
+          <input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+            Dev</label>
+        </div>
+        <div class="part separator">
+          <input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+            de software</label>
+        </div>
+        <div class="part separator">
+          <input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label>
+        </div>
+        
+        
         <button type="submit">Enviar</button>
       </form>
 
 
-      <h3>Ubicación</h3>
+      <h3 id="ubicacion">Ubicación</h3>
+      
       <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255190.1305046165!2d-79.90183448994098!3d-2.0172252318626103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d14657e95ec53%3A0x4a185c7c6e47279d!2sSamborond%C3%B3n!5e0!3m2!1ses-419!2sec!4v1673707385246!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255190.1305046165!2d-79.90183448994098!3d-2.0172252318626103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d14657e95ec53%3A0x4a185c7c6e47279d!2sSamborond%C3%B3n!5e0!3m2!1ses-419!2sec!4v1673707385246!5m2!1ses-419!2sec" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
     </section>
